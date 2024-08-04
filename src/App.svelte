@@ -15,11 +15,11 @@
   </p>
 
   <p class="presentation">
-    My links
+    Links
     </p>
     <a href="https://github.com/pirsonxyz"><button>Github</button></a>
     <a href="https://x.com/pirsonxyz"><button>X</button></a>
-    <a href="mailto:pirsonbethancourt@proton.me"><button>Email me</button></a>
+    <a href="mailto:pirsonbethancourt@proton.me"><button>Mail</button></a>
 </main>
 
 <style>
