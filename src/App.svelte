@@ -1,5 +1,6 @@
 <script lang="ts">
   import myface from '/me.jpg';
+  import CV from '/PirsonBethancourt.pdf'
 </script>
 
 <main>
@@ -14,12 +15,13 @@
    Software Developer from the Dominican Republic
   </p>
 
-  <p class="presentation">
-    Links
-    </p>
-    <a href="https://github.com/pirsonxyz"><button>Github</button></a>
-    <a href="https://x.com/pirsonxyz"><button>X</button></a>
-    <a href="mailto:pirsonbethancourt@proton.me"><button>Mail</button></a>
+  <p class="presentation">Links</p>
+
+  <a href="https://github.com/pirsonxyz"><button>Github</button></a>
+  <a href="https://x.com/pirsonxyz"><button>X</button></a>
+  <a href="mailto:pirsonbethancourt@proton.me"><button>Mail</button></a>
+  <a href={CV}><button>CV</button></a>
+
 </main>
 
 <style>
