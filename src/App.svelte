@@ -19,7 +19,7 @@
 
   <a href="https://github.com/pirsonxyz"><button>Github</button></a>
   <a href="https://x.com/pirsonxyz"><button>X</button></a>
-  <a href="mailto:pirsonbethancourt@proton.me"><button>Mail</button></a>
+  <a href="mailto:pirson@pirson.xyz"><button>Mail</button></a>
   <a href={CV}><button>CV</button></a>
 
 </main>
