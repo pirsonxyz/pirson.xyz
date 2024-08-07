@@ -21,7 +21,7 @@
   <a href="https://x.com/pirsonxyz"><button>X</button></a>
   <a href="mailto:pirson@pirson.xyz"><button>Mail</button></a>
   <a href={CV}><button>CV</button></a>
-  <a href="pirson.bearblog.dev"><button>Blog</button></a>
+  <a href="https://pirson.bearblog.dev"><button>Blog</button></a>
 
 </main>
 
