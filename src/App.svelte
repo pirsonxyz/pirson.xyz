@@ -16,6 +16,7 @@
   </p>
 
   <p class="presentation">Links</p>
+
   <a href="https://github.com/pirsonxyz"><button>Github</button></a>
   <a href="https://x.com/pirsonxyz"><button>X</button></a>
   <a href="mailto:pirson@pirson.xyz"><button>Mail</button></a>
