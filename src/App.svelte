@@ -1,5 +1,4 @@
 <script lang="ts">
-  import myface from "/me.jpg";
   import snorlax from "/snorlax.webp";
   import CV from "/PirsonBethancourt.pdf";
 </script>
