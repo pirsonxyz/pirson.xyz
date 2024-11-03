@@ -18,6 +18,7 @@ a {
   color: #458588;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -56,12 +57,15 @@ button {
   cursor: pointer;
   transition: transform 0.1s ease-in-out;
 }
+
 button:hover {
   border-color: #ffffff;
 }
-a:hover > button {
+
+a:hover>button {
   transform: translateY(-10px);
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -72,9 +76,11 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
