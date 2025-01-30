@@ -1,12 +1,13 @@
 <script lang="ts">
   import snorlax from "/snorlax.webp";
+  import me from "/me.jpg"
   import CV from "/PirsonBethancourt.pdf";
 </script>
 
 <main>
   <div>
     <a href="https://github.com/pirsonxyz" target="_blank" rel="noreferrer">
-      <img src={snorlax} class="img" alt="Pfp" />
+      <img src={me} class="img" alt="Pfp" />
     </a>
   </div>
   <h1>Pirson Bethancourt</h1>
