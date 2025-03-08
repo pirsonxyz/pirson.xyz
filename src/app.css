@@ -9,56 +9,36 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 16px;
 }
-
-/* Mobile-first approach */
-* {
-  box-sizing: border-box;
-}
-
 a {
   font-weight: 500;
   color: #458588;
   text-decoration: inherit;
-  transition: color 0.2s ease;
 }
-
 a:hover {
   color: #535bf2;
 }
-
 body {
   margin: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  place-items: center;
+  min-width: 320px;
   min-height: 100vh;
-  width: 100%;
 }
-
 h1 {
-  font-size: 1.8em;
+  font-size: 2.2em;
   line-height: 1.1;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
 }
-
 img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
-  display: block;
-  margin: 0 auto;
 }
-
 #app {
-width: 100%;
-max-width: 100%;
-margin: 0 auto;
-padding: 1rem;
-text-align: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -68,75 +48,50 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: transform 0.1s ease-in-out, border-color 0.2s ease;
-  margin: 0.5em;
-  width: auto;
+  transition: transform 0.1s ease-in-out, border-color 0.2s;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-
 button:hover {
   border-color: #ffffff;
 }
-
 a:hover>button {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
 }
-
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-/* Tablet breakpoint */
-@media screen and (min-width: 768px) {
-  :root {
-    font-size: 18px;
+/* Responsive buttons for different screen sizes */
+@media (max-width: 768px) {
+  button {
+    width: auto;
+    min-width: 120px;
+    margin: 0.5em;
+    font-size: 0.9em;
+    padding: 0.5em 1em;
   }
-
-  #app {
-  max-width: 90%;
-  padding: 1.5rem;
-  }
-
-  h1 {
-    font-size: 2em;
-  }
-
-  img {
-    max-width: 80%;
-  }
-}
-
-/* Desktop breakpoint */
-@media screen and (min-width: 1024px) {
-  :root {
-    font-size: 20px;
-  }
-
-  #app {
-  max-width: 1280px;
-  padding: 2rem;
-  }
-
-  h1 {
-    font-size: 2.2em;
-  }
-
-  img {
-    max-width: 60%;
+  
+  /* Button container for better layout on small screens */
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
   }
 }
 
-/* Light mode */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
-
   a:hover {
     color: #747bff;
   }
-
   button {
     background-color: #f9f9f9;
   }
