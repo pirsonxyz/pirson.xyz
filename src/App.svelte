@@ -1,7 +1,6 @@
 <script lang="ts">
   import snorlax from "/snorlax.webp";
   import me from "/me.jpg"
-  import CV from "/PirsonBethancourt.pdf";
 </script>
 
 <main>
@@ -18,7 +17,6 @@
   <a href="https://github.com/pirsonxyz"><button>Github</button></a>
   <a href="https://x.com/pirsonxyz"><button>X</button></a>
   <a href="mailto:pirson@pirson.xyz"><button>Mail</button></a>
-  <a href={CV}><button>CV</button></a>
   <a href="https://pirson.bearblog.dev"><button>Blog</button></a>
 </main>
 
