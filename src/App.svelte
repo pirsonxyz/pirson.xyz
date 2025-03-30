@@ -10,7 +10,7 @@
     </a>
   </div>
   <h1>Pirson Bethancourt</h1>
-  <p>Software Developer from the Dominican Republic</p>
+  <p>ML | Systems | FPGAs</p>
 
   <p class="presentation">Links</p>
 
